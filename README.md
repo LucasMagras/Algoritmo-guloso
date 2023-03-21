@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-	Na fig 1 partindo da posição 0x0 o caminho feito seria : 14, 53, 79, 643 e 38 que a ultima posição. 
+	Na fig 1 partindo da posição 0x0 o caminho feito seria : 14, 53, 79, 643 e 38 que  ultima posição. 
 </p>
 	
 <p align="justify">
