@@ -1,8 +1,11 @@
 # Algoritmo-guloso
 
 <p align="justify">
-	O algoritmo tem como objetivo percorrer uma matriz quadrada lida de um arquivo que gerada aleatoriamente, afim de chegar na posição NxN da matriz passando pelas posições de maior valor. Antes de começar o algoritmo, o programa armazena a matriz do arquivo em uma outra matriz declarada no escopo e alocada dinamicamente para poder ler. Durante o caminho só é permitiddo caminhar para baixo, para esquerda ou direita e para as diagonais inferiores, ou seja, é proibido caminhar para alguma posição na linha a cima da posição atual. Alem disso durante o caminho o programa armazena o valor de cada posição em um vetor e no final soma todos esses valores.  
+	O algoritmo tem como objetivo percorrer uma matriz quadrada lida de um arquivo que foi gerada aleatoriamente, afim de chegar na posição NxN da matriz passando pelas posições de maior valor. Antes de começar o algoritmo, o programa armazena a matriz do arquivo em uma outra matriz declarada no escopo e alocada dinamicamente para poder ler. Durante o caminho só é permitiddo caminhar para baixo, para esquerda ou direita e para as diagonais inferiores, ou seja, é proibido caminhar para alguma posição na linha a cima da posição atual. Alem disso durante o caminho o programa armazena o valor de cada posição em um vetor e no final soma todos esses valores.  
 </p>
+
+<p align="justify">
+		Além disso há casos que precisaram ser tratados, como por exemplo quando a posição atual é na borda, ou seja na primeira ou na ultima linha e na primeira ou na ultima coluna. Para tais casos o algoritmo vai apenas analisar as posições disponíveis para caminhar, porém há um caso no qual precisa ser tratado a parte, que no caso seria quando a posição atual é qualquer uma na ultima linha, nesse caso o algoritmo irá caminhar até a ultima posição, andando reto, ou seja para direita.
 
 <p align="justify">
 	Importante lembrar que esse código lê 4 matrizes de uma vez, porem ele armazena apenas uma na matriz alocada. Após realizar o processo em uma matriz, ele zera a outra e recomeça tudo de novo.
