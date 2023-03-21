@@ -5,10 +5,20 @@
 </p>
 
 <p align="justify">
-		Além disso há casos que precisaram ser tratados, como por exemplo quando a posição atual é na borda, ou seja na primeira ou na ultima linha e na primeira ou na ultima coluna. Para tais casos o algoritmo vai apenas analisar as posições disponíveis para caminhar, porém há um caso no qual precisa ser tratado a parte, que no caso seria quando a posição atual é qualquer uma na ultima linha, nesse caso o algoritmo irá caminhar até a ultima posição, andando reto, ou seja para direita.
+		Além disso há casos que precisaram ser tratados, como por exemplo quando a posição atual é na borda, ou seja na primeira ou na ultima linha e na primeira ou na ultima coluna. Para tais casos o algoritmo vai apenas analisar as posições disponíveis para caminhar, porém há um caso no qual precisam ser tratado a parte, que no caso seria quando a posição atual é qualquer uma na ultima linha, nesse caso o algoritmo irá caminhar até a ultima posição, andando reto, no caso para direita. Existe outros dois casos especiais, que seria quando a posiçao atual fosse uma acima da posição NxN ou seja (N-1)x(N) e quando a posição atual fosse na diagonal superior direita da posiçao NxN ou seja (N-1)x(N-1). Nesses casos o algorimto nao irá analisar as outras posições em volta, irá apenas caminhar para a posição NxN da matriz e encerrando o programa.
+</p>
 
-<br>
-<img src = "Algoritmo-guloso/matriz.png">
+<p align="center">
+<img src = "matriz.png">
+</p>
+
+<p align="center">
+	fig 1
+</p>
+
+<p align="center">
+	Na fig 1 partindo da posição 0x0 o caminho feito seria : 14, 53, 79, 643 e 38 que a ultima posição. 
+</p>
 	
 <p align="justify">
 	Importante lembrar que esse código lê 4 matrizes de uma vez, porem ele armazena apenas uma na matriz alocada. Após realizar o processo em uma matriz, ele zera a outra e recomeça tudo de novo.
