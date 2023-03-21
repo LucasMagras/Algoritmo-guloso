@@ -7,6 +7,9 @@
 <p align="justify">
 		Além disso há casos que precisaram ser tratados, como por exemplo quando a posição atual é na borda, ou seja na primeira ou na ultima linha e na primeira ou na ultima coluna. Para tais casos o algoritmo vai apenas analisar as posições disponíveis para caminhar, porém há um caso no qual precisa ser tratado a parte, que no caso seria quando a posição atual é qualquer uma na ultima linha, nesse caso o algoritmo irá caminhar até a ultima posição, andando reto, ou seja para direita.
 
+<br>
+<img src = "Algoritmo-guloso/matriz.png">
+	
 <p align="justify">
 	Importante lembrar que esse código lê 4 matrizes de uma vez, porem ele armazena apenas uma na matriz alocada. Após realizar o processo em uma matriz, ele zera a outra e recomeça tudo de novo.
 </p>
