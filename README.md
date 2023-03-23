@@ -17,11 +17,11 @@
 </p>
 
 <p align="center">
-	Na fig 1 partindo da posição 0x0 o caminho feito seria : 14, 53, 79, 643 e 38 que é a ultima posição. 
+	Na fig 1 partindo da posição 0x0 o caminho feito seria : 14, 53, 79, 643 e 38 que é a ultima posição, e seria printado a soma desses valores, que no caso seria 827
 </p>
 	
 <p align="justify">
-	Importante lembrar que esse código lê 4 matrizes de uma vez, porem ele armazena apenas uma na matriz alocada. Após realizar o processo em uma matriz, ele zera a outra e recomeça tudo de novo.
+	Importante lembrar que esse código lê 4 matrizes de uma vez, porem ele armazena apenas uma na matriz alocada. Após realizar o processo em uma matriz, ele zera a outra e recomeça tudo de novo. Dito iaso, o programa realiza a soma das posições de cada matriz individualmente, e no final faz a soma total desses valores 
 </p>
 
 # Compilação e Execução
