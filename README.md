@@ -16,7 +16,7 @@
 	fig 1
 </p>
 
-<p align="center">
+<p align="justify">
 	Na fig 1 partindo da posição 0x0 o caminho feito seria : 14, 53, 79, 643 e 38 que é a ultima posição, e seria printado a soma desses valores, que no caso seria 827
 </p>
 	
