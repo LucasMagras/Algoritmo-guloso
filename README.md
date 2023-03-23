@@ -1,7 +1,7 @@
 # Algoritmo-guloso
 
 <p align="justify">
-	O algoritmo tem como objetivo percorrer uma matriz quadrada de forma gulosa, afim de chegar na posição NxN da matriz passando pelas posições de maior valor. Antes de começar o algoritmo, o programa armazena a matriz do arquivo em uma outra matriz declarada no escopo e alocada dinamicamente para poder ler. Durante o caminho só é permitiddo caminhar para baixo, para esquerda ou direita e para as diagonais inferiores, ou seja, é proibido caminhar para alguma posição na linha a cima da posição atual. Alem disso durante o caminho o programa armazena o valor de cada posição em um vetor e no final soma todos esses valores.  
+	O algoritmo tem como objetivo percorrer uma matriz quadrada de forma gulosa, afim de chegar na posição NxN da matriz passando pelas posições de maior valor. Antes de começar o algoritmo, o programa armazena a matriz de um arquivo em uma outra matriz declarada no escopo e alocada dinamicamente para poder ler. Durante o caminho só é permitiddo caminhar para baixo, para esquerda ou direita e para as diagonais inferiores, ou seja, é proibido caminhar para alguma posição na linha a cima da posição atual. Alem disso durante o caminho o programa armazena o valor de cada posição em um vetor e no final soma todos esses valores.  
 </p>
 
 <p align="justify">
